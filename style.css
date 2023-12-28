@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("New Folder/images/backgroundImage.jpg");
+    /* opacity: 0.6; */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 95%;
+    padding: 10px 4%;
+    
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    color:red;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button{
+    background-color: red;
+    margin: 0;
+    border: 0;
+    /* height: 30px;
+    width: 80px; */
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 7px 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(222, 145, 145);
+}
+img{
+    max-width: 20px;
+    max-height: 10px;
+    position: relative;
+    
+    left: 6px;
+    align-items: center;
+    
+}
+.down-button{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 2px  solid white;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+.content{
+    /* display: absolute;
+    top:50%;
+    left:60%;
+    transform: translate(-2%,-5%);
+    text-align: center;
+    margin-top: 100px; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap:8px
+
+}
+
+ #first{
+    font-size: 20px;
+    font-weight: lighter;
+ }
+
+.content h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.content h3{
+   
+        display: block;
+        font-weight: 500;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+
+.email-signup{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 30px;
+    overflow: hidden;
+    
+}
+
+.email-btn{
+    height: 50px;
+    width: 180px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding: 3px 24px;
+    
+}
+
+
+.email-input{
+    width: 300px;
+    border-radius: 4px;
+    
+}
+.header input{
+    width: 350px;
+    height:42px ;
+    border-radius: 3px;
+    padding: 3px 20px;
+    border-color:3px solid rgb(231, 213, 213) ;
+    background-color: rgba(23,23,23,0.3);
+    color: white;
+    font-weight: 600;
+}
+.separation{
+    height: 20px;
+    background-color: #fff;
+}
+.second-content{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+}
+
+.imgSection img {
+    max-width: 900px;
+    max-height: 800px;
+    position: relative;
+    left: 6px;
+    align-items: center;
+} 
+
+.imgSectionThird img{
+    width: 50px;
+    height: 60px;
+    left: 6px;
+    position: relative;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSectionTwo img {
+    max-width: 400px;
+    max-height: 350px;
+}
+
+.textSection {
+    text-align: left;
+    margin-left: 20px; 
+}
+
+#contentThird , #contentFifth{
+    max-width: 600px; 
+}
+
+#contentThird h1 {
+    margin: 0; 
+}
+
+
+.forth-content{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+}
+
+.imgSectionForth img{
+    max-width: 400px;
+    max-height: 350px;
+}
+
+.imgSectionFifth img{
+    max-width: 400px;
+    max-height: 350px;
+}
+
+.faq{
+    padding: 11px 12%;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+footer{
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    padding: 12px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer-item{
+    /* text-decoration: none; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    
+
+}
+
+footer .footer-ques{
+    padding: 34px 0;
+}
